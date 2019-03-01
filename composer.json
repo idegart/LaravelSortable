@@ -1,0 +1,19 @@
+{
+    "name": "idegart/laravel-sortable",
+    "description": "Generate sortable trait in laravel model",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Degtyarev Artem",
+            "email": "degtyarev_artem@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Idegart\\LaravelSortable\\": "src/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev"
+}
