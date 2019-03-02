@@ -188,8 +188,9 @@ trait Sortable
 
     public function getSortModificator()
     {
-        return defined('SORT_MODIFICATOR')
-            ? self::SORT_MODIFICATOR
+        $className = get_class();
+        return defined("$className::SORT_MODIFICATOR")
+            ? $className::SORT_MODIFICATOR
             : 'parent_id';
     }
 }
